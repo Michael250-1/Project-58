@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-size: 35px;
+    background-color: skyblue;
+}
+
+.section1 {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#welcome {
+    position: absolute;
+    height: 700px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background:cyan;
+    opacity: 0.83;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    font-family: 'PT Sans Narrow';
+    background:grey;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+   display: inline;
+    padding-top: 5px;
+    padding-bottom: :5px;
+    padding-left: 33px;
+    padding-right: 33px;
+    font-size: 20px;
+}
+
+div {
+    background-color: antiquewhite;
+}
+
+.links:hover {
+    background-color: gold;
+	 text-decoration: underline;
+    font-size: 25px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+#writing a{
+    text-shadow:none !important;
+    text-decoration: underline !important;
+    color:blue !important;
+    
+}
+
+.contact1{
+    color: white;
+    text-shadow: none;
+}
